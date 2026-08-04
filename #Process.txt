@@ -1,0 +1,32 @@
+1. Prerequisites (Virtual Environment Setup)
+
+cd ~/tof_lidar_project
+source venv/bin/activate
+
+2.Running the Main Application
+
+python main.py
+
+3.Running the Standalone Camera Test Suite
+
+python camera_test_suite/main_camera_test.py
+
+
+4. Running the Standalone LiDAR Test Suite
+
+
+python lidar_test_suite/main_lidar_test.py
+
+
+5.Running the 3D LiDAR Visualizer Pro GUI (PySide6 / PyOpenGL)
+
+cd Testing
+python main.py
+
+
+6. Running ROS / ROS 2 Nodes (Optional)
+
+cd ros_ws
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch tof_lidar_bringup sensors_launch.py

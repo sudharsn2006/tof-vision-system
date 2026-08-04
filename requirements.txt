@@ -1,0 +1,11 @@
+# Core lightweight dependencies
+numpy>=1.24,<2.0
+opencv-python>=4.8
+
+# Arducam B0410 ToF AI Camera SDK
+# Install per official instructions: https://github.com/ArduCAM/Arducam_tof_camera
+# ArducamDepthCamera
+
+# YDLIDAR X2 SDK (Python bindings built from YDLidar-SDK, not a pip package)
+# Build & install per: https://github.com/YDLIDAR/YDLidar-SDK
+# ydlidar
